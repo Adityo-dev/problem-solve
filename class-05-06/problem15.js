@@ -1,5 +1,5 @@
 function FindFirstEven(numbers) {
-  for (let index in numbers) {
+  for (let index of numbers) {
     if (numbers[index] % 2 === 0) {
       return numbers[index];
     }

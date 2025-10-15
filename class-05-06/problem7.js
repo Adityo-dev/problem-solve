@@ -1,6 +1,6 @@
 function DoubleEachNumber(numbers) {
   let result = [];
-  for (let index in numbers) {
+  for (let index of numbers) {
     result.push(numbers[index] * 2);
   }
   return result;

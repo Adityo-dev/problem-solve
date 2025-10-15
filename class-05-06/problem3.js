@@ -1,6 +1,6 @@
 function SmallestNumber(numbers) {
   let smallest = numbers[0];
-  for (let index in numbers) {
+  for (let index of numbers) {
     if (numbers[index] < smallest) {
       smallest = numbers[index];
     }

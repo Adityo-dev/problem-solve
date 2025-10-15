@@ -1,6 +1,6 @@
 function RemoveDuplicate(numbers) {
   let result = [];
-  for (let index in numbers) {
+  for (let index of numbers) {
     if (!result.includes(numbers[index])) {
       result.push(numbers[index]);
     }

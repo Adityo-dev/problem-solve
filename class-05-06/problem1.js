@@ -1,6 +1,6 @@
 function Sum(numbers) {
   let sum = 0;
-  for (let index in numbers) {
+  for (let index of numbers) {
     sum += numbers[index];
   }
 
