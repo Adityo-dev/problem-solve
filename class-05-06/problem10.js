@@ -1,6 +1,6 @@
 function FindWordLength(params) {
   let count = 0;
-  for (let index in params) {
+  for (let index of params) {
     count += params[index].length;
   }
   return count;

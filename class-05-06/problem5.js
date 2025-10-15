@@ -1,6 +1,6 @@
 function CountOdd(numbers) {
   let count = 0;
-  for (let index in numbers) {
+  for (let index of numbers) {
     if (numbers[index] % 2 !== 0) {
       count++;
     }

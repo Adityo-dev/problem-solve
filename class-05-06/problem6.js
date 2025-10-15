@@ -1,7 +1,7 @@
 function numbersGreaterThanTen(numbers) {
   let result = [];
 
-  for (let index in numbers) {
+  for (let index of numbers) {
     if (numbers[index] > 10) {
       result.push(numbers[index]);
     }
