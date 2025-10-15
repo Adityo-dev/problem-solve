@@ -1,5 +1,5 @@
 function FindIndex(numbers) {
-  for (let index in numbers) {
+  for (let index of numbers) {
     if (numbers[index] > 5) {
       return index;
     }

@@ -1,5 +1,5 @@
 function FindSpecificElement(numbers, value) {
-  for (let index in numbers) {
+  for (let index of numbers) {
     if (numbers[index] === value) {
       return index;
     }

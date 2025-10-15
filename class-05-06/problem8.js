@@ -1,6 +1,6 @@
 function ConvertTOUppercase(names) {
   let result = [];
-  for (let index in names) {
+  for (let index of names) {
     result.push(names[index].toUpperCase());
   }
   return result;
